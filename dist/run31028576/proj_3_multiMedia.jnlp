@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="proj_3_multiMedia.jnlp">
+  <information>
+    <title>proj_3_multiMedia</title>
+    <vendor>asd</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\jfoenix-8.0.1.jar" size="2405715" download="eager" />
+    <jar href="proj_3_multiMedia.jar" size="2129928" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="proj_3_multiMedia" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="proj_3_multimedia.Proj_3_multiMedia"  name="proj_3_multiMedia" />
+  <update check="always"/>
+</jnlp>
